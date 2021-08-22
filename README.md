@@ -1,5 +1,6 @@
+![Aug-22-2021 19-19-31 (1)](https://user-images.githubusercontent.com/79980351/130351662-981f28ad-cdfc-4e0d-ab6d-c1f5a615d5fc.gif)
 # MyMoney-TechPit
-TechPit の JavaScript 教材の家計簿でアプリをつくる！！
+TecPit教材であるJavaScriptで家計簿アプリをつくりました
 
 # 目的
 JavaScriptの練習or復習
