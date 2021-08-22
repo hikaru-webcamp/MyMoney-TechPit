@@ -1,4 +1,5 @@
 //ラジオボタンによりカテゴリを有効無効切り替え
+// =の左側の.disabledはセレクトボックスの有効無効を切り替えるための設定項目
 function disableSelectBox(disabled) {
     document.getElementById("category").disabled = disabled;
 }

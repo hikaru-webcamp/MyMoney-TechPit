@@ -26,7 +26,7 @@
     <meta property="og:description" content="TechpitのJavaScript教材『家計簿アプリを作りながら学ぶJavaScript！』のサンプルコードです" />
     <meta property="og:url" content="https://hidehikokondo.github.io/MyMoney-TechPit/" />
     <meta property="og:image" content="https://hidehikokondo.github.io/MyMoney-TechPit/ogp.png" />
-    
+
 </head>
 
 <body>
@@ -45,7 +45,9 @@
         <section id="inputSection">
             <div>
                 <label>収支</label>
+                <!-- name属性を２つに一緒にしないとラジオボタン１個だけの選択にならない -->
                 <input name="balance" type="radio" value="支出" onclick="disableSelectBox(false);" checked>支出
+                <!-- ラジオボタンをクリック時にdisableSelectBox関数を呼び出すためにonclick="disableSelectBox(true);"を追加します。 -->
                 <input name="balance" type="radio" value="収入" onclick="disableSelectBox(true);">収入
                 <label>日付</label>
                 <input type="date" id="date">
